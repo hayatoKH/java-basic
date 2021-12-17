@@ -1,0 +1,15 @@
+package superclass;
+
+public class SuperSonicAirplane extends Airplane{
+	//초음비행기도 일반 비행기처럼 속도값만 가집니다.
+	// 따라서 변수는 추가로 정의하지 않습니다.
+	
+	public SuperSonicAirplane(int Speed) {
+		// 부모의 생성자는 상속되지 않습니다.
+		// 따라서 자식쪽에서 부모쪽 생성자에 전달할 값까지
+		// 모두 처리해야 합니다.
+		// 부모 생성자는 super(); 로 이름이 고정입니다.
+		super(speed);
+	}
+
+}

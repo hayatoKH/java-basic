@@ -1,0 +1,20 @@
+package game.Interraction;
+
+public class Main04 {
+	
+	public static void main(String[] args) {
+		
+		// 마법사 생성
+		Warrior W1 = new Warrior();
+		  
+		// 트롤 생성
+		slime S1 = new slime();
+		
+		W1.huntslime(S1);
+		
+	System.out.println("===================================");	
+		
+	}
+}		
+
+

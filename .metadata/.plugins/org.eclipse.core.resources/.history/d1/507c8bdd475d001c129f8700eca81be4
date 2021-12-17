@@ -1,0 +1,6 @@
+package game.inheritance;
+
+
+public class Main02 extends Commoner{
+
+}

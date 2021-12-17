@@ -1,0 +1,27 @@
+	
+package game.inheritance;
+
+
+	private class Commoner {
+	
+			
+	public int level ;
+	public int hp;
+	public String ID;
+	public int mp;
+	
+	
+	
+	public static void main(String[] args) {
+	
+	Commoner c1 = new Commoner();
+		c1.level = 1;
+		c1.hp = 20;
+		c1.ID = "";
+		c1.mp = 10;
+
+		c1.getInfo();
+	
+	}
+
+}

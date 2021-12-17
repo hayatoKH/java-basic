@@ -1,0 +1,20 @@
+package thiskeyword;
+
+import structure.PersonClass;
+
+public class Main01P224 {
+
+	public static void main(String[] args) {
+		//Person을 두명 생성해 보시되,
+		// 생성 시 지역간 데이터 교환을 염두에 두고 확인해가면서 생성해보세요.
+		// 생성된 Person은 getInfo()를 실행합니다.
+		
+		Person p1 = new Person();{
+		p1.name = "제니";
+		p1.age = 25;
+		p1.moey = 1000000;
+		p1. major = "태국어";
+
+	}
+	}
+}

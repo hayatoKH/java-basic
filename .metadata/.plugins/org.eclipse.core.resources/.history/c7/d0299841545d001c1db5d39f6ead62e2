@@ -1,0 +1,11 @@
+package game.inheritance;
+
+public class Main02 {
+	
+	// Warrior 생서을 하나 해주세요.
+	
+	Warrior W1 = new Warrior("나전사");
+	// 정보를 조회 해보시고, 호출순번도 고려해보세요.
+	W1.getInfo();
+}
+}

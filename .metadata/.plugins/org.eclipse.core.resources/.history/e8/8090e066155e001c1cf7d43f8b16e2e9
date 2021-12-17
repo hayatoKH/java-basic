@@ -1,0 +1,12 @@
+package game.Interraction;
+
+public class Main02 {
+	
+	public static void main(String[] args) {
+		
+		Warrior W1 = new Warrior();
+		  
+		 W1.hunttroll(3);
+	}
+}
+

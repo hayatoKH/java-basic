@@ -1,0 +1,30 @@
+package game.Interraction;
+
+public class archer {
+
+	private int hp;
+	private int mp;
+	private int atk;
+	private int def;
+	private int exp;
+	
+	public archer() {
+		this.hp = 25;
+		this.mp = 15;
+		this.atk = 10;
+		this.def = 5;
+		this.exp = 0;
+}
+		
+	public void doBattle(int uAtk) {
+
+		hp = (hp + def) - uAtk;
+		System.out.println("오크 남은 체력 : " + hp);{
+
+		hp = (hp + def) - uAtk;
+			System.out.println("오크 남은 체력 : " + hp);
+		
+	}
+	}
+}
+

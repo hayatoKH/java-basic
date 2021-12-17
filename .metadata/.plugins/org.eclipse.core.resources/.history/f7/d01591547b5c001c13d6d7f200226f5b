@@ -1,0 +1,12 @@
+package overriding;
+
+public class Main01P265 {
+
+	public static void main(String[] args) {
+		// 말과 돼지를 생성해보겠습니다.
+		Horse h1 = new Horse();
+		
+
+	}
+
+}

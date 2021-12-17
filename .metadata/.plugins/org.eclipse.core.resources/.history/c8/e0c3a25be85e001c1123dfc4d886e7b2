@@ -1,0 +1,18 @@
+package polymorphism;
+
+public class Main02 {
+	
+	public static void main(String[] args) {
+		
+
+		Person p1 = new Person("나사람", 10);
+		Person s1 = new Student("나학생", 20, 100);
+		Person m1 = new Musician("뮤지션A", 30, 85);
+		
+		p1.showPerson(); // Person측 showPerson()호출
+		s1.showPerson(); // Student측 showPerson()호출
+		m1.showPerson(); // Police측 showPerson()호출
+	}
+
+}
+

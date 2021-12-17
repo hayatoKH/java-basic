@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;superclass&apos; to &apos;20211214/src&apos;&#x0D;&#x0A;- Original project: &apos;20211130&apos;&#x0D;&#x0A;- Destination element: &apos;20211214/src&apos;&#x0D;&#x0A;- Original element: &apos;20211130/src/superclass&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=20211214/src" element1="/src&lt;superclass" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1639464343634" version="1.0"/>
+</session>

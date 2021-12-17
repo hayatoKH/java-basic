@@ -1,0 +1,13 @@
+package overriding;
+
+public class pig extends Animal{
+	
+	public int weight;
+	
+	public void howl() {
+		System.out.println("꿀꿀꿀");
+		
+	public void getInfo();
+	
+}
+}

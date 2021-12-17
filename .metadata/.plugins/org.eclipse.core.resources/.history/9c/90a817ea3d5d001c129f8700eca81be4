@@ -1,0 +1,10 @@
+package game.inheritance;
+
+public class Commoner {
+		
+		public int level ;
+		public int hp;
+		public  food;
+		
+
+}

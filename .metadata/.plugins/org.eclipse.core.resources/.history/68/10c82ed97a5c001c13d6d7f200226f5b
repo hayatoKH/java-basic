@@ -1,0 +1,8 @@
+package overriding;
+
+public class Horse extends Animal {
+	
+	private int rank;
+	
+
+}
