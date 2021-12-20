@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="casting.Cat"/>
+    <fullyQualifiedTypeName name="stactic1.StaticTest"/>
 </qualifiedTypeNameHistroy>
