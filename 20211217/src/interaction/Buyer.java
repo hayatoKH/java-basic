@@ -6,7 +6,7 @@ public class Buyer {
 	
 	private int money; // 소지금
 	private int mango; // 망고개수
-	private int apple; // 망고개수
+	private int apple; // 사과개수
 	
 	public Buyer() {
 		this.money = 0;

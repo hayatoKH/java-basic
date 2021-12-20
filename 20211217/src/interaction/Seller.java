@@ -6,7 +6,7 @@ public class Seller {
 	private int mango; // 재고(개수)
 	private int apple;
 	
-	//생성자에서 money는 초기값이 0이고, mango는 입력받도록 해주세요.
+	//생성자에서 money는 초기값이 0이고, mango, apple는 입력받도록 해주세요.
 	public Seller(int mango) {
 		this.money = 0;
 		this.mango = mango;
