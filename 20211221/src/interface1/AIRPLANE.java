@@ -17,7 +17,7 @@ public class AIRPLANE implements Vehicle {
 		// TODO Auto-generated method stub
 		
 		if(speed + AIRPLANE_INCREASE_SPD > TRAIN_MAX_SPD) {
-			speed = AIRPLANE_MIN_SPD;
+			speed = MIN_SPD;
 		} else {	
 			speed += AIRPLANE_INCREASE_SPD;
 		
@@ -30,8 +30,8 @@ public class AIRPLANE implements Vehicle {
 	@Override
 	public void breakSpeed() {
 		
-		if(speed - AIRPLANE_DECREASE_SPD > AIRPLANE_MIN_SPD) {
-			speed = AIRPLANE_MIN_SPD;
+		if(speed - AIRPLANE_DECREASE_SPD > MIN_SPD) {
+			speed = MIN_SPD;
 		} else { 
 			speed -= AIRPLANE_DECREASE_SPD;
 		}
@@ -41,8 +41,8 @@ public class AIRPLANE implements Vehicle {
 	@Override
 	public void reFuel() {
 
-		if(gas + AIRPLANE_DECREASE_GAS > AIRPLANE_MIN_GAS) {
-			gas = AIRPLANE_MIN_GAS;
+		if(gas + AIRPLANE_DECREASE_GAS > MIN_GAS) {
+			gas = MIN_GAS;
 		} else { 
 			gas += AIRPLANE_INCREASE_GAS;
 	}

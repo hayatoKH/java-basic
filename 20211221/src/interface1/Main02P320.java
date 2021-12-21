@@ -3,9 +3,9 @@ package interface1;
 public class Main02P320 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		Vehicle t1 = new Train("최성민");
+		// 기차생성 후 명령 7개 이상
+		Vehicle t1 = new Train("나기차");
+		
 		t1.accel();
 		t1.accel();
 		t1.accel();
@@ -14,7 +14,6 @@ public class Main02P320 {
 		t1.showStatus();
 		t1.reFuel();
 		t1.showStatus();
-	  }	
+	}
 
 }
-

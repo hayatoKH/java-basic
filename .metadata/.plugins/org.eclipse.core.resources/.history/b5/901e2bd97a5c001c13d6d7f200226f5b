@@ -1,6 +1,0 @@
-package overriding;
-
-public class pig extends Animal{
-	private int weight;
-	
-}
