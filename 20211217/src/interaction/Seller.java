@@ -42,7 +42,7 @@ public class Seller {
 		public void showSeller() {
 			System.out.println("-----상인정보-----");
 			System.out.println("현재소지금 : " + this.money + ", 현재망고재고 : " + this.mango);
-			System.out.println("현재소지금 : " + this.apple + ", 현재사과재고 : " + this.mango);
+			System.out.println("현재소지금 : " + this.apple + ", 현재사과재고 : " + this.apple);
 			System.out.println("--------------------");
 		}
 	
