@@ -42,8 +42,8 @@ public class Buyer {
 			if(seller.getMango() < mango) {
 				System.out.println("망고재고가 부족합니다. + 망고 재고 : " + seller.getMango());
 				
-			if(seller.getApple() < mango) {
-		     	System.out.println("망고재고가 부족합니다. + 망고 재고 : " + seller.getMango());	
+			if(seller.getApple() < apple) {
+		     	System.out.println("망고재고가 부족합니다. + 망고 재고 : " + seller.getApple());	
 			return;
 			}
 			//망고개수를 입력받으면 소지금을 개수 * 가격 만큼 차감해주고 망고개수는 올라갑니다.
@@ -52,7 +52,7 @@ public class Buyer {
 			this.mango += mango;
 			
 			this.money -= apple * 5000;
-			this.mango += apple;
+			this.apple += apple;
 			
 			//이때 seller쪽에서도 sellmango()가 호출되도록 처리하며
 			// seller의 망고를 차감하고 돈을 올려주는 로직

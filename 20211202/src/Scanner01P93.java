@@ -17,3 +17,4 @@ public class Scanner01P93 {
 	}
 
 }
+

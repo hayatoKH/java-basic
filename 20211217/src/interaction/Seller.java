@@ -7,7 +7,7 @@ public class Seller {
 	private int apple;
 	
 	//생성자에서 money는 초기값이 0이고, mango, apple는 입력받도록 해주세요.
-	public Seller(int mango) {
+	public Seller(int mango, int apple) {
 		this.money = 0;
 		this.mango = mango;
 		this.apple = apple;
@@ -17,7 +17,7 @@ public class Seller {
 	// 자신의 this.mango는 갯수만큼  차감하고, this.money는 망고개수* 가격 만큼 증가합니다.
 	public void sellMango(int mango) {
 		
-		//망고가 모자라면 "망고가 모자랍니다." 라고 한 후 메서드를 종료합니다.
+		//망고가 모자라면 "망고가 모자랍니다." 라고 한 후 메서드를 종료합니다.0
 		if(this.mango < mango) {
 			System.out.println("망고가 모자랍니다. 현재 재고 : " + this.mango);
 		}
@@ -26,7 +26,7 @@ public class Seller {
 			public void sellApple(int apple) {
 			
 				if(this.apple < apple) {
-				System.out.println("사과가 모자랍니다. 현재 재고 : " + this.mango);	
+				System.out.println("사과가 모자랍니다. 현재 재고 : " + this.apple);	
 			return; //메서드 강제종료구문
 		}
 		
@@ -34,7 +34,7 @@ public class Seller {
 		this.mango -= mango;
 		this.money += mango * 4000;
 		
-		this.mango -= apple;
+		this.apple -= apple;
 		this.money += apple * 5000;
 		
 	}
@@ -42,7 +42,7 @@ public class Seller {
 		public void showSeller() {
 			System.out.println("-----상인정보-----");
 			System.out.println("현재소지금 : " + this.money + ", 현재망고재고 : " + this.mango);
-			System.out.println("현재소지금 : " + this.apple + ", 현재사과재고 : " + this.apple);
+			System.out.println("현재소지금 : " + this.money + ", 현재사과재고 : " + this.apple);
 			System.out.println("--------------------");
 		}
 	
