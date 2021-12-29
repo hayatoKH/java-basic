@@ -21,8 +21,8 @@ public class HashMap02P459 {
 		
 		System.out.println(map);
 		
-		System.out.println(map.get("오코노미야끼 가격 : " + map.get("오코노미야끼"));
-		System.out.println(map.get("스시 가격 : " + map.get("스시"));
-		System.out.println(map.get("텐동 가격 : " + map.get("텐동"));
+		System.out.println(map.get("오코노미야끼 가격 : " + map.get("오코노미야끼")));
+		System.out.println(map.get("스시 가격 : " + map.get("스시")));
+		System.out.println(map.get("텐동 가격 : " + map.get("텐동")));
 	}
 }
