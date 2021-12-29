@@ -18,3 +18,4 @@ public class Random01P484 {
 	}
 
 }
+

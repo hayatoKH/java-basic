@@ -63,12 +63,3 @@ public class Lotte01 {
 	  }
 	}
   }
-
-	
-
-
-
-	
-
-
-

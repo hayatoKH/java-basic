@@ -24,12 +24,12 @@ public class Random02P484 {
 		int front = 0;
 		int back = 0;
 		
-		// 랜덤 변수 실행 후 반복은 동전 너질 횟수만큼 돌려서
+		// 랜덤 변수 실행 후 반복은 동전 던질 횟수만큼 돌려서
 		Random random = new Random();
 		for(int i = 0; i < count; i++) {
 		// random.nextBoolean()이 true면 앞면 1 증가
 		// false면 뒷면 1증가하도록 조건식 장성
-			//boolean reult = random.nextBoolean();
+			//boolean result = random.nextBoolean();
 			if(random.nextBoolean()) {
 				front++;
 			}else {

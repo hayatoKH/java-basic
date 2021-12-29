@@ -1,3 +1,5 @@
+package Collection1;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -40,6 +42,8 @@ public class LinkedList01P447 {
 		// 자료 정렬은 Collections.sort(정렬대상) 입니다.
 		Collections.sort(list1);
 		System.out.println(list1);
+		
+
 	}
 
 }
